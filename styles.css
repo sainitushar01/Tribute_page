@@ -16,6 +16,7 @@
     padding-bottom:30px;
     border-radius:10px;
     margin-bottom:50px;
+ 
   }
   .container__heading{
     text-align:center;
@@ -71,22 +72,22 @@
   a{
     text-decoration:none;
   }
-  @media(min-width:760px)
-  {
-    .hero__image{
-      border:1px solid rgb(221,221,221);
-       margin-left:15px;
-       padding-top:5px;
-      margin-bottom:40px;
-      width:550px;
-      margin-left:400px;
-    }
-    .hero__image__image{
-      border-radius:50%;
-       width:100%;
-     }
-     .hero__image__caption{
-      background-color:rgb(221,221,221);
-      padding:8px;
-    }
+ @media (min-width:760px)
+ {
+  .hero__image{
+    border:1px solid rgb(221,221,221);
+     margin-left:15px;
+     padding-top:5px;
+    margin-bottom:40px;
+    width:100%;
   }
+  .hero__image__image{
+   border-radius:50%;
+    width:500px;
+  }
+  .hero__image__caption{
+    background-color:rgb(221,221,221);
+    padding:8px;
+    width:100%;
+  }
+ }
