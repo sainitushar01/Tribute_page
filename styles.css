@@ -12,7 +12,7 @@
     background-color:rgb(238,238,238);
     padding-top:40px;
     padding-left:10px;
-    padding-right:20px;
+    padding-right:40px;
     padding-bottom:30px;
     border-radius:10px;
     margin-bottom:50px;
@@ -32,29 +32,24 @@
   }
   .hero{
     margin-left:15px;
-    margin-right:10px;
     border:1px solid rgb(221,221,221);
     padding:5px;
     margin-bottom:20px;
   }
   .hero__description{
-    max-width:100%;
+    width:100%;
     letter-spacing:1px;
   }
   .hero__image{
     border:1px solid rgb(221,221,221);
      margin-left:15px;
-    margin-right:10px;
      padding-top:5px;
     margin-bottom:40px;
-    height:570px;
+    width:100%;
   }
-figure{
- height:100%;   
-}
   .hero__image__image{
    border-radius:50%;
-    height:500px;
+    width:100%;
   }
   .hero__image__caption{
     background-color:rgb(221,221,221);
@@ -75,4 +70,23 @@ figure{
   }
   a{
     text-decoration:none;
+  }
+  @media(min-width:760px)
+  {
+    .hero__image{
+      border:1px solid rgb(221,221,221);
+       margin-left:15px;
+       padding-top:5px;
+      margin-bottom:40px;
+      width:550px;
+      margin-left:400px;
+    }
+    .hero__image__image{
+      border-radius:50%;
+       width:100%;
+     }
+     .hero__image__caption{
+      background-color:rgb(221,221,221);
+      padding:8px;
+    }
   }
