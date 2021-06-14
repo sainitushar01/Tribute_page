@@ -49,6 +49,9 @@
     margin-bottom:40px;
     height:570px;
   }
+figure{
+ height:100%;   
+}
   .hero__image__image{
    border-radius:50%;
     height:500px;
